@@ -1,0 +1,81 @@
+{
+	"id": "com.sap.sample.coloredbox",
+	"version": "1.0.0",
+	"name": "Colored Box",
+	"description": "A colored box",
+	"newInstancePrefix": "ColoredBox",
+	"icon": "https://marylinem.github.io/CustomWidgetsRedBox/icon.png",
+	"vendor": "SAP",
+	"eula": "",
+	"license": "",
+	"webcomponents": [
+		{
+			"kind": "main",
+			"tag": "com-sap-sample-coloredbox-styling",
+			"url": "https://marylinem.github.io/CustomWidgetsRedBox/coloredbox_styling.js",
+			"integrity": "",
+			"ignoreIntegrity": true
+		}
+	],
+	"properties": {
+		"color": {
+			"type": "string",
+			"description": "Background color",
+			"default": "red"
+		},
+		"opacity": {
+			"type": "number",
+			"description": "Opacity",
+			"default": 1
+		},
+		"width": {
+			"type": "integer",
+			"default": 100
+		},
+		"height": {
+			"type": "integer",
+			"default": 100
+		}
+	},
+	"methods": {
+		"setColor": {
+			"description": "Sets the background color.",
+			"parameters": [
+				{
+					"name": "newColor",
+					"type": "string",
+					"description": "The new background color"
+				}
+			],
+			"body": "this.color = newColor;"
+		},
+		"getColor": {
+			"returnType": "string",
+			"description": "Returns the background color.",
+			"body": "return this.color;"
+		}
+	},
+	"dataBindings": {
+		"myDataBinding": {
+		  "feeds": [
+			{
+			  "id": "dimensions",
+			  "description": "Dimensions",
+			  "type": "dimension"
+			},
+			{
+			  "id": "measures",
+			  "description": "Measures",
+			  "type": "mainStructureMember"
+			}
+		  ]
+		}
+	},
+	"events": {
+		"onClick": {
+			"description": "Called when the user clicks the Colored Box."
+		}
+	}
+}
+
+ 
