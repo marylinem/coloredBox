@@ -4,7 +4,7 @@
 	"name": "Colored Box",
 	"description": "A colored box",
 	"newInstancePrefix": "ColoredBox",
-	"icon": "https://marylinem.github.io/CustomWidgetsRedBox/icon.png",
+	"icon": "https://marylinem.github.io/coloredBox/box/icon.png",
 	"vendor": "SAP",
 	"eula": "",
 	"license": "",
@@ -12,21 +12,21 @@
 		{
 			"kind": "main",
 			"tag": "com-sap-sample-coloredbox",
-			"url": "https://marylinem.github.io/CustomWidgetsRedBox/coloredbox.js",
+			"url": "https://marylinem.github.io/coloredBox/box/coloredbox.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		},
 		{
 			"kind": "styling",
 			"tag": "com-sap-sample-coloredbox-styling",
-			"url": "https://www.sample.com/customwidgets/coloredbox/coloredbox_styling.js",
+			"url": "https://marylinem.github.io/coloredBox/box/coloredbox_styling.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 			},
 			{
 			"kind": "builder",
 			"tag": "com-sap-sample-coloredbox-builder",
-			"url": "https://www.sample.com/customwidgets/coloredbox/coloredbox_builder.js",
+			"url": "https://marylinem.github.io/coloredBox/box/coloredbox_builder.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 			}
