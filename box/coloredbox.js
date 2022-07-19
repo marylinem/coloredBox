@@ -23,6 +23,9 @@
 				var event = new Event("onClick");
 				this.dispatchEvent(event);
 			});
+			this.myDataBinding.data.forEach(row => {
+				console.log(row);
+			})
 			this._props = {};
 		}
 
