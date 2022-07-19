@@ -11,11 +11,25 @@
 	"webcomponents": [
 		{
 			"kind": "main",
-			"tag": "com-sap-sample-coloredbox-styling",
-			"url": "https://marylinem.github.io/CustomWidgetsRedBox/coloredbox_styling.js",
+			"tag": "com-sap-sample-coloredbox",
+			"url": "https://marylinem.github.io/CustomWidgetsRedBox/coloredbox.js",
 			"integrity": "",
 			"ignoreIntegrity": true
-		}
+		},
+		{
+			"kind": "styling",
+			"tag": "com-sap-sample-coloredbox-styling",
+			"url": "https://www.sample.com/customwidgets/coloredbox/coloredbox_styling.js",
+			"integrity": "",
+			"ignoreIntegrity": true
+			},
+			{
+			"kind": "builder",
+			"tag": "com-sap-sample-coloredbox-builder",
+			"url": "https://www.sample.com/customwidgets/coloredbox/coloredbox_builder.js",
+			"integrity": "",
+			"ignoreIntegrity": true
+			}
 	],
 	"properties": {
 		"color": {
