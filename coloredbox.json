@@ -22,13 +22,6 @@
 			"url": "https://marylinem.github.io/coloredBox/box/coloredbox_styling.js",
 			"integrity": "",
 			"ignoreIntegrity": true
-			},
-			{
-			"kind": "builder",
-			"tag": "com-sap-sample-coloredbox-builder",
-			"url": "https://marylinem.github.io/coloredBox/box/coloredbox_builder.js",
-			"integrity": "",
-			"ignoreIntegrity": true
 			}
 	],
 	"properties": {

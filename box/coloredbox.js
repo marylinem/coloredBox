@@ -20,7 +20,6 @@
 			let shadowRoot = this.attachShadow({mode: "open"});
 			shadowRoot.appendChild(template.content.cloneNode(true));
 			this.addEventListener("click", event => {
-				alert("Styling funktioniert");
 				var event = new Event("onClick");
 				this.dispatchEvent(event);
 			});
