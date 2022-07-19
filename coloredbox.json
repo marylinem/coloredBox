@@ -15,14 +15,7 @@
 			"url": "https://marylinem.github.io/coloredBox/box/coloredbox.js",
 			"integrity": "",
 			"ignoreIntegrity": true
-		},
-		{
-			"kind": "styling",
-			"tag": "com-sap-sample-coloredbox-styling",
-			"url": "https://marylinem.github.io/coloredBox/box/coloredbox_styling.js",
-			"integrity": "",
-			"ignoreIntegrity": true
-			}
+		}
 	],
 	"properties": {
 		"color": {
