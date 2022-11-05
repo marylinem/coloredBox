@@ -43,12 +43,13 @@
     data-sap-ui-libs="sap.m"
     data-sap-ui-compatVersion="edge"
     data-sap-ui-async="true"
-    data-sap-ui-onInit="module:sap/ui/demo/walkthrough/webapp/index"
+    data-sap-ui-onInit="module:sap/ui/demo/walkthrough/index"
     data-sap-ui-resourceroots='{
         "sap.ui.demo.walkthrough": "./"
     }'>
-	<button id="2" type="button">another Apply</button>
     </script>
+	<button id="2" type="button">another Apply</button>
+
     <style>
     :host {
     display: block;

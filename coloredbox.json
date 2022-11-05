@@ -30,7 +30,7 @@
         {
             "kind": "builder",
             "tag": "com-sap-sample-coloredbox-builder",
-			"url": "https://marylinem.github.io/coloredBox/box/coloredbox_builder.js",
+			"url": "https://marylinem.github.io/coloredBox/webapp/coloredbox_builder.js",
             "integrity": "",
             "ignoreIntegrity": true
         }
