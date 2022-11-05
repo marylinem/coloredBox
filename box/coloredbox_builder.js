@@ -2,7 +2,7 @@
 
     let template = document.createElement("template");
     template.innerHTML = `
-    <div class="sapUiBody" id="builderContent">
+    <div class="sapUiBody" id="content">
     <button id="selModel" type="button">Select Model</button>
     <br>
     <br>
@@ -40,6 +40,19 @@
     padding: 1em 1em 1em 1em;
     }
     </style>
+	<script
+		id="sap-ui-bootstrap"
+		src="https://sdk.openui5.org/resources/sap-ui-core.js"
+		data-sap-ui-theme="sap_belize"
+		data-sap-ui-libs="sap.m"
+		data-sap-ui-compatVersion="edge"
+		data-sap-ui-async="true"
+		data-sap-ui-onInit="module:sap/ui/demo/walkthrough/webapp/index"
+		data-sap-ui-resourceroots='{
+			"sap.ui.demo.walkthrough": "./"
+		}'>
+
+	</script>
     `;
 
 	class ColoredBoxBuilderPanel extends HTMLElement {
