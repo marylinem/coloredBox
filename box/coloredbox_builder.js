@@ -33,6 +33,8 @@
     <button id="createModel" type="button">Apply</button>
     <br>
     <br>
+	<button id="2" type="button">another Apply2</button>
+	<br>
     </div>
 	<script
     id="sap-ui-bootstrap"
