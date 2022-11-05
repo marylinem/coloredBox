@@ -31,16 +31,9 @@
     <br>
     <br>
     <button id="createModel" type="button">Apply</button>
-	<button id="2" type="button">another Apply</button>
     <br>
     <br>
     </div>
-    <style>
-    :host {
-    display: block;
-    padding: 1em 1em 1em 1em;
-    }
-    </style>
 	<script
     id="sap-ui-bootstrap"
     src="https://sdk.openui5.org/resources/sap-ui-core.js"
@@ -48,11 +41,18 @@
     data-sap-ui-libs="sap.m"
     data-sap-ui-compatVersion="edge"
     data-sap-ui-async="true"
-    data-sap-ui-onInit="module:sap/ui/demo/walkthrough/index"
+    data-sap-ui-onInit="module:sap/ui/demo/walkthrough/webapp/index"
     data-sap-ui-resourceroots='{
         "sap.ui.demo.walkthrough": "./"
     }'>
+	<button id="2" type="button">another Apply</button>
     </script>
+    <style>
+    :host {
+    display: block;
+    padding: 1em 1em 1em 1em;
+    }
+    </style>
     `;
 
 	class ColoredBoxBuilderPanel extends HTMLElement {
