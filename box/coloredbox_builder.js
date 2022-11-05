@@ -31,6 +31,7 @@
     <br>
     <br>
     <button id="createModel" type="button">Apply</button>
+	<button id="2" type="button">another Apply</button>
     <br>
     <br>
     </div>
