@@ -6,10 +6,16 @@
     <button id="selModel" type="button">Select Model</button>
     <br>
     <br>
+
+    <div id="list1"
+    <span id="span1"></span>
     <label for="selMeasure">Select Measure<br></label>
     <select id="selMeasure">
         <option>--NONE--</option>
     </select>
+    </div>
+
+
     <br>
     <br>
     <label for="selDim0">Select Events<br></label>
@@ -66,6 +72,29 @@
         width: 100%;
         line-height: 1.4375rem;
         cursor: pointer;
+        margin-right: 2rem;
+    }
+    #list1 {
+        display: flex;
+        height: 2rem;
+        line-height: 2rem;
+        padding-left: 0.25rem;
+        box-sizing: border-box;
+        margin-left: 0;
+        display: inline-flex;
+        align-items: center;
+        justify-content: flex-start;
+        position: absolute;
+    }
+    span{
+        font-family: 'fpa\2dicons';
+        margin-left: 0;
+        cursor: pointer;
+        width: 1rem;
+        font-size: 1rem;
+        margin-right: 0.25rem;
+        line-height: 2rem;
+        color: #346187;
     }
 
     </style>
