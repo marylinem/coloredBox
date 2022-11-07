@@ -59,7 +59,25 @@
         height: 26px;
         font-size: .875rem;
     }
+    label {
+        font-size: 1.125rem;
+        font-weight: 400;
+        cursor: pointer;
+        margin-right: 2rem;
+    }
+    label: before{
+        content: "";
+        display: block;
+        font-family: 'fpa\2dicons';
+        margin-left: 0;
+        cursor: pointer;
+        width: 1rem;
+        font-size: 1rem;
+        margin-right: 0.25rem;
+        line-height: 2rem;
+        color: #346187;
 
+    }
 
     </style>
     `;
