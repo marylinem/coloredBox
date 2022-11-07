@@ -79,7 +79,7 @@
     .selectdiv {
         position: relative;        
         float: left;
-        min-width: 500px;
+        min-width: 200px;
         margin: 50px 33%;
       }
       
@@ -104,7 +104,7 @@
         -webkit-appearance: none;
         -moz-appearance: none;
         appearance: none;
-        
+
         display: block;
         width: 100%;
         max-width: 320px;
