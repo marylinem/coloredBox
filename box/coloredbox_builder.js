@@ -56,6 +56,17 @@
         height: 26px;
         font-size: .875rem;
     }
+    label {
+        font-size: 1.125rem;
+        font-weight: 400;
+        font-family: "72fallback","72","72full",Arial,Helvetica,sans-serif;
+        color: #333;
+        display: table-cell;
+        vertical-align: middle;
+        width: 100%;
+        line-height: 1.4375rem;
+        cursor: pointer;
+    }
 
     </style>
     `;
