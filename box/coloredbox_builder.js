@@ -46,6 +46,12 @@
         text-shadow: none;
         margin: 0 4px;
         padding: 0 0.5rem;
+        line-height: 1.5rem;
+        cursor: pointer;
+        white-space: normal;
+        min-width: 2rem;
+        text-align: center;
+        height: 26px;
     }
     #createModel{
         border: 1px solid #427cac;
