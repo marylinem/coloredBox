@@ -2,6 +2,7 @@
 
     let template = document.createElement("template");
     template.innerHTML = `
+    <link rel="stylesheet" href="mystyle.css">
     <div class="sapUiBody" id="content">
     <button id="selModel" type="button">Select Model</button>
     <br>
@@ -33,7 +34,7 @@
     <button id="createModel" type="button">Apply</button>
     <br>
     <br>
-	<button id="2" type="button">another Apply2</button>
+	<button id="2" type="button">another Apply</button>
 	<br>
     </div>
 	<script
@@ -48,7 +49,7 @@
         "sap.ui.demo.walkthrough": "./"
     }'>
     </script>
-	<button id="2" type="button">another Apply</button>
+	<button id="2" type="button">another Apply2</button>
 
     <style>
     :host {
