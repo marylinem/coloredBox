@@ -77,23 +77,26 @@
         margin-left: 0.25rem;
     }
     .selectdiv {
-        position: relative;        
-        float: left;
-        min-width: 200px;
-        margin: 50px 33%;
+        height: 40px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        border-radius: 3px;
+        margin-bottom: 1em;
       }
       
       .selectdiv:before {
-          content: '\f078';
-          font: normal normal normal 17px/1 FontAwesome;
-          color: #0ebeff;
-          right: 11px;
-          top: 6px;
-          height: 34px;
-          padding: 15px 0px 0px 8px;
-          border-left: 1px solid #0ebeff;
-          position: absolute;
-          pointer-events: none;
+            content: "▼";
+            padding: 12px 8px;
+            position: absolute;
+            right: 10px;
+            top: 0;
+            z-index: 1;
+            text-align: center;
+            width: 10%;
+            height: 100%;
+            pointer-events: none;
+          
       }
       
       select::-ms-expand {
@@ -101,25 +104,20 @@
       }
       
       .selectdiv select {
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        appearance: none;
-
-        display: block;
+        height: 40px;
         width: 100%;
-        max-width: 320px;
-        height: 50px;
-        float: right;
-        margin: 5px 0px;
-        padding: 0px 24px;
+        padding: 5px 15px;
+        color: #616263;
+        background-color: #ececec;
+        border: 1px solid #e3e3e3;
+        outline: none;
         font-size: 16px;
-        line-height: 1.75;
-        color: #333;
-        background-color: #ffffff;
-        background-image: none;
-        border: 1px solid #0ebeff;
-        -ms-word-break: normal;
-        word-break: normal;
+        -webkit-appearance: none;
+        /* for webkit browsers */
+        -moz-appearance: none;
+        /* for firefox */
+        appearance: none;
+        /* for modern browsers */
         
       }
 
