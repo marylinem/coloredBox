@@ -87,14 +87,15 @@
       
       .selectdiv::before {
             content: ">";
-            transform: rotate(45deg);
+            transform: rotateZ(90deg);
+            transition-duration: 500ms;
             color: #346187;
             font-size: 10rem;
             text-align: center;
             cursor: pointer;
-            width: 1rem;
-            margin-right: 0.25rem;
-            line-height: 2rem;          
+            line-height: 2rem;
+            width: 1.5rem;
+            margin: 0 0.75rem;          
       }
       
       select::-ms-expand {
