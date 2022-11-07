@@ -112,8 +112,7 @@
         appearance: none;        
         display: block;
         width: 100%;
-        max-width: 320px;
-        height: 50px;
+        height: 30px;
         float: right;
         margin: 5px 0px;
         padding: 0px 24px;
