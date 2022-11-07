@@ -7,13 +7,10 @@
     <br>
     <br>
 
-    <div id="list1"
-    <span id="span1"></span>
     <label for="selMeasure">Select Measure<br></label>
     <select id="selMeasure">
         <option>--NONE--</option>
     </select>
-    </div>
 
 
     <br>
@@ -74,7 +71,17 @@
         justify-content: flex-start;
         position: absolute;
     }
-    #span1{
+
+    label {
+        font-size: 1.125rem;
+        font-weight: 400;
+        font-family: "72fallback","72","72full",Arial,Helvetica,sans-serif;
+        cursor: pointer;
+        margin-right: 2rem;
+    }
+    label: before{
+        content: "";
+        display: block;
         font-family: 'fpa\2dicons';
         margin-left: 0;
         cursor: pointer;
@@ -83,18 +90,7 @@
         margin-right: 0.25rem;
         line-height: 2rem;
         color: #346187;
-    }
-    label[for=selMeasure] {
-        font-size: 1.125rem;
-        font-weight: 400;
-        font-family: "72fallback","72","72full",Arial,Helvetica,sans-serif;
-        color: #333;
-        display: table-cell;
-        vertical-align: middle;
-        width: 100%;
-        line-height: 1.4375rem;
-        cursor: pointer;
-        margin-right: 2rem;
+
     }
 
     </style>
