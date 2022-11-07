@@ -62,18 +62,6 @@
         height: 26px;
         font-size: .875rem;
     }
-    label {
-        font-size: 1.125rem;
-        font-weight: 400;
-        font-family: "72fallback","72","72full",Arial,Helvetica,sans-serif;
-        color: #333;
-        display: table-cell;
-        vertical-align: middle;
-        width: 100%;
-        line-height: 1.4375rem;
-        cursor: pointer;
-        margin-right: 2rem;
-    }
     #list1 {
         display: flex;
         height: 2rem;
@@ -86,7 +74,7 @@
         justify-content: flex-start;
         position: absolute;
     }
-    span{
+    #span1{
         font-family: 'fpa\2dicons';
         margin-left: 0;
         cursor: pointer;
@@ -95,6 +83,18 @@
         margin-right: 0.25rem;
         line-height: 2rem;
         color: #346187;
+    }
+    label[for=selMeasure] {
+        font-size: 1.125rem;
+        font-weight: 400;
+        font-family: "72fallback","72","72full",Arial,Helvetica,sans-serif;
+        color: #333;
+        display: table-cell;
+        vertical-align: middle;
+        width: 100%;
+        line-height: 1.4375rem;
+        cursor: pointer;
+        margin-right: 2rem;
     }
 
     </style>
