@@ -6,16 +6,18 @@
     <button id="selModel" type="button">Select Model</button>
     <br>
     <br>
-    <div class="selectdiv">
+   
     <label for="selMeasure">Select Measure<br></label>
+    <div class="selectdiv">
     <select id="selMeasure">
         <option>--NONE--</option>
     </select>
     </div>
 
     <br>
-    <div class="selectdiv">
     <label for="selDim0">Select Events<br></label>
+    <br>
+    <div class="selectdiv">
     <select id="selDim0">
         <option>--NONE--</option>
     </select>
