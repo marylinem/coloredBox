@@ -64,6 +64,12 @@
         font-weight: 400;
         cursor: pointer;
         margin-right: 2rem;
+        font-family: "72fallback","72","72full",Arial,Helvetica,sans-serif;
+        font-size: 1.25rem;
+        text-decoration: none;
+        color: #666;
+        line-height: 1.75;
+        margin-left: 0.25rem;
     }
 
 
