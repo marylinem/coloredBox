@@ -31,12 +31,8 @@
     <br>
     <br>
     <button id="createModel" type="button">Apply</button>
-    <br>
-    <br>
-	<button id="2" type="button" style="color:orange;text-align:center;">another Apply</button>
 	<br>
     </div>
-	<button id="2" type="button">another Apply2</button>
 
     <style>
     :host {
@@ -44,11 +40,15 @@
     padding: 1em 1em 1em 1em;
     }
     #selModel {
-        text-align: center;
-        color: red;
+        background: #346187;
+        border-radius: 3px;
+        color: #fff;
+        text-shadow: none;
+        margin: 0 4px;
+        padding: 0 0.5rem;
     }
     #createModel{
-        color: yellow;
+        border: 1px solid #427cac;
     }
     </style>
     `;
