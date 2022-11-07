@@ -85,17 +85,12 @@
         margin-bottom: 1em;
       }
       
-      .selectdiv:before {
-            content: "▼";
-            padding: 12px 8px;
-            position: absolute;
-            right: 10px;
-            top: 0;
-            z-index: 1;
-            text-align: center;
-            width: 10%;
-            height: 100%;
-            pointer-events: none;
+      .selectdiv::before {
+            content: ">";
+            transform: rotate(90deg);
+            color: #346187;
+            font-size: 1rem;
+            cursor: pointer;
           
       }
       
