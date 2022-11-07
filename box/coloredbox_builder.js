@@ -90,7 +90,7 @@
             transform: rotateZ(90deg);
             transition-duration: 500ms;
             color: #346187;
-            font-size: 10rem;
+            font-size: 2rem;
             text-align: center;
             cursor: pointer;
             line-height: 2rem;
