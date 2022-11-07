@@ -80,7 +80,6 @@
     .selectdiv {
         position: relative;  
         width: 100%;
-        text-align: left;
         padding: 0 2rem 0 0;
         background-color: #fff;
         border: 1px solid #bfbfbf;
@@ -101,10 +100,8 @@
         top: 8px;
         padding: 0 0 2px;
         border-bottom: 1px solid #999;
-        /*left line */
         
         position: absolute;
-        pointer-events: none;
       }
       
       select::-ms-expand {
@@ -114,24 +111,9 @@
       .selectdiv select {
         -webkit-appearance: none;
         -moz-appearance: none;
-        appearance: none;
-        /* Add some styling */
-        
+        appearance: none;        
         display: block;
         width: 100%;
-        max-width: 320px;
-        height: 50px;
-        float: right;
-        margin: 5px 0px;
-        padding: 0px 24px;
-        font-size: 16px;
-        line-height: 1.75;
-        color: #333;
-        background-color: #ffffff;
-        background-image: none;
-        border: 1px solid #cccccc;
-        -ms-word-break: normal;
-        word-break: normal;
         
       }
 
