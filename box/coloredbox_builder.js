@@ -34,7 +34,7 @@
     <button id="createModel" type="button">Apply</button>
     <br>
     <br>
-	<button id="2" type="button">another Apply</button>
+	<button id="2" type="button" style="color:blue;text-align:center;">another Apply</button>
 	<br>
     </div>
 	<script
