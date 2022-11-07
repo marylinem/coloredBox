@@ -87,20 +87,6 @@
         margin-left: 0.25rem;
       }
       
-      .selectdiv:after {
-        content: '>';
-        font: 17px "Consolas", monospace;
-        color: #346187;
-        -webkit-transform: rotate(90deg);
-        -moz-transform: rotate(90deg);
-        -ms-transform: rotate(90deg);
-        transform: rotate(90deg);
-        right: 11px;       
-        top: 2px;
-        padding: 0 0 2px;        
-        position: absolute;
-        pointer-events: none;
-      }
       
       select::-ms-expand {
       display: none;
