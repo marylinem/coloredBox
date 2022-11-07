@@ -6,32 +6,37 @@
     <button id="selModel" type="button">Select Model</button>
     <br>
     <br>
-
+    <div class="selectdiv">
     <label for="selMeasure">Select Measure<br></label>
     <select id="selMeasure">
         <option>--NONE--</option>
     </select>
-
+    </div>
 
     <br>
-    <br>
+    <div class="selectdiv">
     <label for="selDim0">Select Events<br></label>
     <select id="selDim0">
         <option>--NONE--</option>
     </select>
+    </div>
+
     <br>
-    <br>
+    <div class="selectdiv">
     <label for="selDim1">Select Relation<br></label>
     <select id="selDim1">
         <option>--NONE--</option>
     </select>
+    </div>
+
     <br>
-    <br>
+    <div class="selectdiv">
     <label for="selDim2">Select Timestamp<br></label>
     <select id="selDim2">
         <option>--NONE--</option>
     </select>
-    <br>
+    </div>
+
     <br>
     <button id="createModel" type="button">Apply</button>
 	<br>
@@ -71,6 +76,52 @@
         line-height: 1.75;
         margin-left: 0.25rem;
     }
+    .selectdiv {
+        position: relative;        
+        float: left;
+        min-width: 500px;
+        margin: 50px 33%;
+      }
+      
+      .selectdiv:before {
+          content: '\f078';
+          font: normal normal normal 17px/1 FontAwesome;
+          color: #0ebeff;
+          right: 11px;
+          top: 6px;
+          height: 34px;
+          padding: 15px 0px 0px 8px;
+          border-left: 1px solid #0ebeff;
+          position: absolute;
+          pointer-events: none;
+      }
+      
+      select::-ms-expand {
+      display: none;
+      }
+      
+      .selectdiv select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        
+        display: block;
+        width: 100%;
+        max-width: 320px;
+        height: 50px;
+        float: right;
+        margin: 5px 0px;
+        padding: 0px 24px;
+        font-size: 16px;
+        line-height: 1.75;
+        color: #333;
+        background-color: #ffffff;
+        background-image: none;
+        border: 1px solid #0ebeff;
+        -ms-word-break: normal;
+        word-break: normal;
+        
+      }
 
 
     </style>
