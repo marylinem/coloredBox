@@ -33,23 +33,11 @@
     <button id="createModel" type="button">Apply</button>
     <br>
     <br>
-	<button id="2" type="button" style="color:green;text-align:center;">another Apply</button>
+	<button id="2" type="button" style="color:orange;text-align:center;">another Apply</button>
 	<br>
     </div>
-	<script
-    id="sap-ui-bootstrap"
-    src="https://sdk.openui5.org/resources/sap-ui-core.js"
-    data-sap-ui-theme="sap_belize"
-    data-sap-ui-libs="sap.m"
-    data-sap-ui-compatVersion="edge"
-    data-sap-ui-async="true"
-    data-sap-ui-onInit="module:sap/ui/demo/walkthrough/index"
-    data-sap-ui-resourceroots='{
-        "sap.ui.demo.walkthrough": "./"
-    }'>
-    </script>
 	<button id="2" type="button">another Apply2</button>
-    <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
 
     <style>
     :host {
