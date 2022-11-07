@@ -16,7 +16,6 @@
 
     <br>
     <label for="selDim0">Select Events<br></label>
-    <br>
     <div class="selectdiv">
     <select id="selDim0">
         <option>--NONE--</option>
@@ -24,16 +23,16 @@
     </div>
 
     <br>
-    <div class="selectdiv">
     <label for="selDim1">Select Relation<br></label>
+    <div class="selectdiv">
     <select id="selDim1">
         <option>--NONE--</option>
     </select>
     </div>
 
     <br>
-    <div class="selectdiv">
     <label for="selDim2">Select Timestamp<br></label>
+    <div class="selectdiv">
     <select id="selDim2">
         <option>--NONE--</option>
     </select>
@@ -81,7 +80,7 @@
     .selectdiv {
         position: relative;  
         float: left;
-        min-width: 200px;
+        min-width: 100px;
         margin: 50px 33%;
       }
       
@@ -96,7 +95,7 @@
         transition-duration: 500ms;
         right: 11px;
         
-        top: 18px;
+        top: 8px;
         padding: 0 0 2px;
         border-bottom: 1px solid #999;
         /*left line */
