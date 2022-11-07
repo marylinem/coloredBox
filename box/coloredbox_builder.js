@@ -37,12 +37,18 @@
 	<br>
     </div>
 	<button id="2" type="button">another Apply2</button>
-    <link rel="stylesheet" type="text/css" href="mystyle.css">
 
     <style>
     :host {
     display: block;
     padding: 1em 1em 1em 1em;
+    }
+    #selModel {
+        text-align: center;
+        color: red;
+    }
+    #createModel{
+        color: yellow;
     }
     </style>
     `;
