@@ -87,9 +87,10 @@
       
       .selectdiv::before {
             content: ">";
-            transform: rotate(90deg);
+            transform: rotate(45deg);
             color: #346187;
-            font-size: 1rem;
+            font-size: 10rem;
+            text-align: center;
             cursor: pointer;
           
       }
