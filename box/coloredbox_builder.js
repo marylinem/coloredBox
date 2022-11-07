@@ -77,25 +77,30 @@
         margin-left: 0.25rem;
     }
     .selectdiv {
-        height: 40px;
-        width: 100%;
-        overflow: hidden;
-        position: relative;
-        border-radius: 3px;
-        margin-bottom: 1em;
+        position: relative;  
+        float: left;
+        min-width: 200px;
+        margin: 50px 33%;
       }
       
-      .selectdiv::before {
-            content: ">";
-            transform: rotateZ(90deg);
-            transition-duration: 500ms;
-            color: #346187;
-            font-size: 2rem;
-            text-align: center;
-            cursor: pointer;
-            line-height: 2rem;
-            width: 1.5rem;
-            margin: 0 0.75rem;          
+      .selectdiv:after {
+        content: '>';
+        font: 17px "Consolas", monospace;
+        color: #346187;
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
+        transition-duration: 500ms;
+        right: 11px;
+        
+        top: 18px;
+        padding: 0 0 2px;
+        border-bottom: 1px solid #999;
+        /*left line */
+        
+        position: absolute;
+        pointer-events: none;
       }
       
       select::-ms-expand {
@@ -103,20 +108,26 @@
       }
       
       .selectdiv select {
-        height: 40px;
-        width: 100%;
-        padding: 5px 15px;
-        color: #616263;
-        background-color: #ececec;
-        border: 1px solid #e3e3e3;
-        outline: none;
-        font-size: 16px;
         -webkit-appearance: none;
-        /* for webkit browsers */
         -moz-appearance: none;
-        /* for firefox */
         appearance: none;
-        /* for modern browsers */
+        /* Add some styling */
+        
+        display: block;
+        width: 100%;
+        max-width: 320px;
+        height: 50px;
+        float: right;
+        margin: 5px 0px;
+        padding: 0px 24px;
+        font-size: 16px;
+        line-height: 1.75;
+        color: #333;
+        background-color: #ffffff;
+        background-image: none;
+        border: 1px solid #cccccc;
+        -ms-word-break: normal;
+        word-break: normal;
         
       }
 
