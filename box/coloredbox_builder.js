@@ -92,7 +92,9 @@
             font-size: 10rem;
             text-align: center;
             cursor: pointer;
-          
+            width: 1rem;
+            margin-right: 0.25rem;
+            line-height: 2rem;          
       }
       
       select::-ms-expand {
