@@ -59,23 +59,10 @@
         height: 26px;
         font-size: .875rem;
     }
-    #list1 {
-        display: flex;
-        height: 2rem;
-        line-height: 2rem;
-        padding-left: 0.25rem;
-        box-sizing: border-box;
-        margin-left: 0;
-        display: inline-flex;
-        align-items: center;
-        justify-content: flex-start;
-        position: absolute;
-    }
 
     label {
         font-size: 1.125rem;
         font-weight: 400;
-        font-family: "72fallback","72","72full",Arial,Helvetica,sans-serif;
         cursor: pointer;
         margin-right: 2rem;
     }
