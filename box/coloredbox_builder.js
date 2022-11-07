@@ -79,9 +79,13 @@
     }
     .selectdiv {
         position: relative;  
-        float: left;
-        min-width: 100px;
-        margin: 50px 33%;
+        width: 100%;
+        text-align: left;
+        padding: 0 2rem 0 0;
+        background-color: #fff;
+        border: 1px solid #bfbfbf;
+        border-radius: 0;
+        height: 1.625rem;
       }
       
       .selectdiv:after {
@@ -92,7 +96,6 @@
         -moz-transform: rotate(90deg);
         -ms-transform: rotate(90deg);
         transform: rotate(90deg);
-        transition-duration: 500ms;
         right: 11px;
         
         top: 8px;
